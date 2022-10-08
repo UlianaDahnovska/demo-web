@@ -1,8 +1,8 @@
-import profileReducer from "./Profile-reducer";
-import dialogsReducer from "./Dialogs-reducer";
-import sideBarReducer from "./SideBar-reducer";
+import profileReducer from "./profile-reducer";
+import dialogsReducer from "./dialogs-reducer";
+import sideBarReducer from "./sideBar-reducer";
 import {configureStore} from "@reduxjs/toolkit";
-import usersReducer from "./Users-reducer";
+import usersReducer from "./users-reducer";
 import authReducer from "./auth-reducer";
 import {reducer as formReducer} from 'redux-form'
 import appReducer from "./app-reducer";

@@ -1,4 +1,4 @@
-import profileReducer, {addPostActionCreator, deletePost} from "./Profile-reducer";
+import profileReducer, {addPostActionCreator, deletePost} from "./profile-reducer";
 import {render, screen} from "@testing-library/react";
 import App from "../App";
 
