@@ -20,6 +20,10 @@ let store = configureStore({
     }
 })
 
+export type AppStateType = ReturnType<typeof store.getState>
 
+// @ts-ignore
 window.store = store
+
+
 export default store
